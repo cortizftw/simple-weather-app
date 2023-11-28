@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li class="title"><a href="index.html">Simple Weather App</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropbtn">About</a>
+            <div class="dropdown-content">
+                <a href="#">Developers</a>
+                <a href="#">Documentation</a>
+            </div>
+            </li>
+        </ul>
+        </nav>
+  <form id="loginForm" action="/submit-login" method="post" onsubmit="return validateForm()">
+    <label for="username">Email</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password"><br>
+    <input type="submit" value="Login">
+  </form>
+  <script src="script.js"></script>
+  <footer>
+    <p>Copyright &copy; Fall 2023</p>
+  </footer>
+</body>
+</html>

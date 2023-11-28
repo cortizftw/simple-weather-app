@@ -1,0 +1,33 @@
+This final project is to be done in groups of 2-3. It will be out of 20 marks. In
+your groups, you can decide the theme and purpose of your web application.
+The breakdown is as follows:
+1. Your webpage should have a 
+-header/navigation bar (with a dropdown menu), [OK]
+-sidebar, [TODO]
+-footer, [OK] 
+-main content area. [3 marks] [WIP]
+2. You must have an 
+-external CSS file, [OK]
+-use a custom font, [OK] 
+-use jQuery. [OK]
+[1 mark]
+3. You must have a 
+-login page with  [OK]
+-validation on the fields for email and [OK]
+-password (minimum 8 characters, and must have a capital letter, [OK]
+number and special character). [3 marks]
+4. You need to display data in 4 different ways:
+a. A line graph [1 mark]
+b. A bar graph [1 mark]
+c. A pie graph [1 mark]
+d. A table [1 mark]
+5. For the displays in #4, 
+-2 of them should be loaded from a local json
+file, and the 
+-other 2 should be from an API. [2 marks]
+6. Include animations on your page. [1 mark]
+7. Make the page mobile compatible for screen size width < 500 px. [2
+marks]
+8. Make the page visually appealing. [2 marks]
+9. Presentation/Creativity [2 marks]
+a. Challenge yourself and try out something new – get creative!

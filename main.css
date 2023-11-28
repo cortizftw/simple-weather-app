@@ -1,0 +1,74 @@
+body {
+    /* background-image: url('clouds-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #f1f1f1;
+  }
+  
+  header nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    /* padding-left: 100px; */
+    /* padding-right: 10opx; */
+    font-family: 'inter',sans-serif;
+  }
+  
+  header nav ul li {
+    margin: 0 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+    color: white;
+  }
+  
+  nav li:last-child {
+    border-right: none;
+  }
+  
+  nav li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  nav li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color: #111;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

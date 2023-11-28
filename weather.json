@@ -1,0 +1,114 @@
+{
+    "weather": [
+        {
+            "date": "2023-12-29",
+            "date_epoch": 1703808000,
+            "maxtemp_c": -0.9,
+            "maxtemp_f": 30.4,
+            "mintemp_c": -6.2,
+            "mintemp_f": 20.8,
+            "avgtemp_c": -3.3,
+            "avgtemp_f": 26.1,
+            "maxwind_mph": 14.3,
+            "maxwind_kph": 23.0,
+            "totalprecip_mm": 2.2,
+            "totalprecip_in": 0.09,
+            "avgvis_km": 6.8,
+            "avgvis_miles": 4.0,
+            "avghumidity": 89.0,
+            "condition": {
+                "text": "Moderate or heavy snow showers",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/371.png",
+                "code": 1258
+            }
+        },
+        {
+            "date": "2023-12-28",
+            "date_epoch": 1703721600,
+            "maxtemp_c": -0.4,
+            "maxtemp_f": 31.3,
+            "mintemp_c": -5.8,
+            "mintemp_f": 21.6,
+            "avgtemp_c": -3.0,
+            "avgtemp_f": 26.6,
+            "maxwind_mph": 15.7,
+            "maxwind_kph": 25.2,
+            "totalprecip_mm": 2.4,
+            "totalprecip_in": 0.09,
+            "avgvis_km": 6.9,
+            "avgvis_miles": 4.0,
+            "avghumidity": 89.0,
+            "condition": {
+                "text": "Moderate or heavy snow showers",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/371.png",
+                "code": 1258
+            }
+        },
+        {
+            "date": "2023-11-27",
+            "date_epoch": 1701043200,
+            "maxtemp_c": 1.6,
+            "maxtemp_f": 34.9,
+            "mintemp_c": -4.1,
+            "mintemp_f": 24.7,
+            "avgtemp_c": -1.2,
+            "avgtemp_f": 29.9,
+            "maxwind_mph": 20.4,
+            "maxwind_kph": 32.8,
+            "totalprecip_mm": 2.59,
+            "totalprecip_in": 0.1,
+            "avgvis_km": 3.9,
+            "avgvis_miles": 2.0,
+            "avghumidity": 88.0,
+            "condition": {
+                "text": "Light snow showers",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/368.png",
+                "code": 1255
+            }
+        },
+        {
+            "date": "2023-11-26",
+            "date_epoch": 1700956800,
+            "maxtemp_c": 3.0,
+            "maxtemp_f": 37.4,
+            "mintemp_c": -3.3,
+            "mintemp_f": 26.1,
+            "avgtemp_c": -0.2,
+            "avgtemp_f": 31.6,
+            "maxwind_mph": 11.4,
+            "maxwind_kph": 18.4,
+            "totalprecip_mm": 10.26,
+            "totalprecip_in": 0.4,
+            "avgvis_km": 7.3,
+            "avgvis_miles": 4.0,
+            "avghumidity": 78.0,
+            "condition": {
+                "text": "Heavy snow",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/338.png",
+                "code": 1225
+            }
+        },
+        {
+            "date": "2023-11-25",
+            "date_epoch": 1700870400,
+            "maxtemp_c": 2.1,
+            "maxtemp_f": 35.8,
+            "mintemp_c": -3.8,
+            "mintemp_f": 25.2,
+            "avgtemp_c": -1.4,
+            "avgtemp_f": 29.5,
+            "maxwind_mph": 11.4,
+            "maxwind_kph": 18.4,
+            "totalprecip_mm": 0.0,
+            "totalprecip_in": 0.0,
+            "avgvis_km": 10.0,
+            "avgvis_miles": 6.0,
+            "avghumidity": 65.0,
+            "condition": {
+                "text": "Overcast",
+                "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+                "code": 1009
+            }
+        }
+    ]
+}
