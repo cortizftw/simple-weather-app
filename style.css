@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+    /* animation: fadeIn 1s ease-in-out; */
   }
 
 nav ul {
@@ -52,6 +53,7 @@ nav ul {
     font-size: 20px;
     order: -1;
     margin-right: auto;
+
   }
 
   .dropdown {
@@ -147,3 +149,11 @@ nav ul {
     font-size: medium;
   }
 
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,15 +1,15 @@
 {
-    "weather": {
+    "snowfall": {
         "latitude": 43.419884,
         "longitude": -80.50015,
-        "generationtime_ms": 0.10693073272705078,
+        "generationtime_ms": 0.05602836608886719,
         "utc_offset_seconds": -18000,
         "timezone": "America/New_York",
         "timezone_abbreviation": "EST",
         "elevation": 337.0,
         "daily_units": {
             "time": "iso8601",
-            "weather_code": "wmo code"
+            "snowfall_sum": "cm"
         },
         "daily": {
             "time": [
@@ -28,21 +28,21 @@
                 "2023-12-10",
                 "2023-12-11"
             ],
-            "condition": [
-                "Partly Cloudy",
-                "Mostly Cloudy",
-                "Clear",
-                "Mostly Cloudy",
-                "Partly Cloudy",
-                "Drizzle",
-                "Light Rain",
-                "Thunderstorms",
-                "Clear",
-                "Clear",
-                "Clear",
-                "Clear",
-                "Light Rain",
-                "Clear"
+            "snowfall_sum": [
+                0.00,
+                1.12,
+                0.00,
+                1.54,
+                0.00,
+                0.00,
+                0.24,
+                0.83,
+                0.00,
+                0.00,
+                0.00,
+                0.00,
+                0.10,
+                0.00
             ]
         }
     }
