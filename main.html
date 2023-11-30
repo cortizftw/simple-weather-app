@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
@@ -70,6 +71,13 @@
   <script src="canvas_json.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="snowflake.js"></script>
+  <script>
+    window.onload = function() {
+      const screenHeight = window.screen.height;
+      const mainContent = document.querySelector('.main-content');
+      mainContent.style.height = `${screenHeight}px`;
+    };
+  </script>
 </body>
 
 </html>
