@@ -149,11 +149,45 @@ nav ul {
     font-size: medium;
   }
 
-  @keyframes fadeIn {
+  /* @keyframes fadeIn {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
     }
+} */
+
+
+/* Styles for screens less than 600px wide (mobile) */
+@media (max-width: 500px) {
+  .title {
+    font-size: 12px;
+  }
+
+  form {
+    width: 90%;
+  }
+}
+
+/* Styles for screens between 600px and 900px wide (tablet) */
+@media (min-width: 501px) and (max-width: 900px) {
+  .title {
+    font-size: 16px;
+  }
+
+  form {
+    width: 70%;
+  }
+}
+
+/* Styles for screens wider than 900px (desktop) */
+@media (min-width: 901px) {
+  .title {
+    font-size: 20px;
+  }
+
+  form {
+    width: 50%;
+  }
 }
