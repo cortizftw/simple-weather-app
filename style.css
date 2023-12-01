@@ -195,4 +195,10 @@ nav ul {
     font-size: 14px; /* Adjust the font size for better readability */
   }
 
+  form {
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 25%;
+  }
 }
+

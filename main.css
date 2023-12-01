@@ -183,3 +183,36 @@
       transform: translateY(100vh);
   }
 }
+
+/* Media query for screens with a maximum width of 500 pixels */
+@media (max-width: 500px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+
+  #BarChart,
+  #PieChart,
+  #tableHtml {
+    width: 90%;
+    height:60% /* Full width for smaller screens */
+    /*padding:10px;*/
+  }
+
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates 2 equal-width columns */
+  grid-template-rows: 1fr 1fr; /* Creates 2 equal-height rows */
+  height: 45vh; /* Make the container take up the full viewport height */
+  gap: 10px; /* Adds padding between columns and rows */
+}
+  
+.section {
+  border: 1px solid #ccc; /* Optional, just to visualize the sections */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content vertically with equal space */
+  box-sizing: border-box;
+}
