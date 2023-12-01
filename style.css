@@ -1,10 +1,11 @@
 body {
-    background-image: url('clouds-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100px;
-    /* animation: fadeIn 1s ease-in-out; */
-  }
+  background-image: url('clouds-background.jpg');
+  /*background-repeat: no-repeat;*/
+  background-repeat: repeat; /*grisha*/
+  background-size: cover;
+  padding-top: 100px;
+  /* animation: fadeIn 1s ease-in-out; */
+}
 
 nav ul {
     display: flex;
@@ -149,45 +150,49 @@ nav ul {
     font-size: medium;
   }
 
-  /* @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-} */
 
-
-/* Styles for screens less than 600px wide (mobile) */
+/* Styles for screens less than 500px wide (mobile) */
 @media (max-width: 500px) {
   .title {
-    font-size: 12px;
+    text-align: center; /* Center the title */
+    font-size: 16px; /* Adjust font size as needed for better readability */
+    margin-right: auto;
+    order: 0;
+    float: none; /* Clear the float property */
   }
 
-  form {
-    width: 90%;
-  }
-}
-
-/* Styles for screens between 600px and 900px wide (tablet) */
-@media (min-width: 501px) and (max-width: 900px) {
-  .title {
-    font-size: 16px;
+  nav {
+    flex-direction: column;
+    align-items: center;
   }
 
-  form {
-    width: 70%;
-  }
-}
-
-/* Styles for screens wider than 900px (desktop) */
-@media (min-width: 901px) {
-  .title {
-    font-size: 20px;
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
 
-  form {
-    width: 50%;
+  .dropdown {
+    display: block; /* Display the dropdown content as a block */
+    position: static; /* Override the position: relative; */
   }
+
+  .dropdown-content {
+    position: static; /* Override the position: absolute; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .centered-container {
+    margin: 20px; /* Adjust margin for better spacing */
+    height: 40vh;
+  }
+
+  h1 {
+    font-size: 19px; /* Adjust the font size for better readability */
+  }
+
+  h2 {
+    font-size: 14px; /* Adjust the font size for better readability */
+  }
+
 }
